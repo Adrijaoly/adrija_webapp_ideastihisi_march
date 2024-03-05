@@ -1,0 +1,2464 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=width=device-width, initial-scale=1" name="viewport"/>
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet"/>
+<title>TIH</title>
+<!-- Bootstrap core CSS -->
+<link href="assets/css/normalize.css" rel="stylesheet"/>
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- Additional CSS Files -->
+<link href="assets/css/font.css" rel="stylesheet"/>
+<link href="assets/css/style.css" rel="stylesheet"/>
+<link href="assets/css/graph.css" rel="stylesheet"/>
+<link href="assets/css/lightbox.css" rel="stylesheet"/>
+<style>
+* {
+  box-sizing: border-box; 
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.colun {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<!--header-->
+<header class="main-header clearfix" role="header">
+<div class="logo">
+<a href="#"><em>TIH -</em> Technology Innovation Hub</a>
+</div>
+<a class="menu-link" href="#menu"><i class="fa fa-bars"></i></a>
+<nav class="main-nav" id="menu" role="navigation">
+<ul class="main-menu">
+<li><a href="#section1">Home</a></li>
+<li><a href="#section2">About Us</a></li>
+<li><a href="#section6"> Facilities </a></li>
+<li><a href="#section7"> Activities </a></li>
+<li class="has-submenu"><a href="">Members</a>
+<ul class="sub-menu">
+<li><a href="#section3"> Faculty(IITG)</a></li>
+<li><a href="#section4"> Faculty(Allies)</a></li>
+<li><a href="#section5"> Employees</a></li>
+<li><a href="#section10">Interns</a></li>
+</ul>
+</li>
+<!-- <li><a href="#section5">Video</a></li> -->
+<li><a href="#section8"> Gallery </a></li>
+<li><a href="#section9">Contact</a></li>
+<li><button onclick="window.location.href='https://iitg.ac.in/tihue/forms.html'" style="font: bold 18px Arial;" type="button">Purchase Rules &amp; Forms</button>
+</li>
+</ul>
+</nav>
+</header>
+<!-- ***** Main Banner Area Start ***** -->
+<section class="section main-banner" data-section="section1" id="top">
+<video autoplay="" id="bg-video" loop="" muted="">
+<source src="assets/images/intro.mp4" type="video/mp4"/>
+</video>
+<div class="video-overlay header-text">
+<div class="caption"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<h3><em>TECHNOLOGY FOR UNDERWATER EXPLORATION</em></h3>
+<h4>IIT Guwahati technology innovation and development foundation (section 8 company)<br/> CIN - U73100AS2020NPL020425</h4>
+<h4><a href="https://serbonline.in/ICPS/HomePage">National Mission on Interdisciplinary Cyber Physical Systems (NM-ICPS)</a></h4>
+<h4><a href="https://www.iitg.ac.in/cicps/">Center for Intelligent Cyber Physical Systems Funded by TIH </a></h4>
+<button onclick="window.location.href='https://iitg.ac.in/tihue/hpc/index.html';" style=" background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;  
+  cursor: pointer;">  
+ High Performance GPU Computing Facility 
+</button>
+</div>
+</div>
+</section> <hr/>
+<!-- ***** Main Banner Area End ***** -->
+<section class="section video" data-section="section">
+<div class="container"><hr/></div> <div class="section-heading">
+<h2>Announcement</h2>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div class="profile-teaser">
+<div class="why-choose-us-content text-center mb-80 wow fadeInUp" data-wow-delay="300ms">
+<div class="chosse-us-icon">
+<i aria-hidden="true" class="fa fa-calendar"></i>
+</div>
+<h3 style="color: white"><u>Notifications</u></h3><br/>
+<ul><marquee behavior="scroll" direction="up" height="300" onmouseout="this.start();" onmouseover="this.stop();" scrollamount="2">
+<li><a href="assets/images/files/JRF Niranjan Sahoo.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger">New </span></sup> Advertisement for the post of JRF B. Tech in Mechanical Engineering with Gate Score
+</a></li><br/>
+<li><a href="assets/images/files/JRF Farukh.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger">New </span></sup> Advertisement for the post of JRF MTech/ M.sc/ Ph.D (Chemical/Materials Science/chemistry/Physics/Mechanical/Biotechnology/Electrical/Electronics/Instrumentation)
+</a></li><br/>
+<li><a href="assets/images/files/JRF Nageswara.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger">New </span></sup> Advertisement for the post of JRF B.Tech (Chemical Engineering or Equivalent) with Gate Score)
+</a></li><br/>
+<li><a href="assets/images/files/JRF Ranjith.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger">New </span></sup> Advertisement for the post of JRF M.Tech/ M.sc/ Ph.D (Chemical/Materials Science/chemistry/Physics/Mechanical/Biotechnology)
+</a></li><br/>
+<li><a href="assets/images/files/Advertisement of Marketing Manager..pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger">New </span></sup> 
+  Advertisement for the post of Marketing Manager (Graduate in any discipline having minimum 5 years)(Extended til 03-02-2024)
+</a></li><br/>
+<li><a href="assets/images/files/Finance MIS Executive.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> New</span></sup>
+   Advertisement for the post of Finance &amp; MIS Executive (B.com + M.com with 4 Years of Experience)(Extended til 03-02-2024)
+</a></li><br/>
+<li><a href="assets/images/files/JRF Dibya Prakash Jena.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> New</span></sup>
+   Advertisement for the post of JRF (B.Tech (Mechanical/Computer Science/ Electronics/Instrumentation Engineering or Equivalent))
+</a></li><br/>
+<li><a href="assets/images/files/JRF Prof. Chandan Kumar.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger">New </span></sup>
+   Advertisement for the post of JRF (B.Tech (Electrical Engineering or Equivalent) with Gate Score)(Extended til 25-01-2024)
+</a></li><br/>
+<li><a href="assets/images/files/JRF Prof. Deepak Sharma.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger">New </span></sup> Advertisement for the post of JRF (B.Tech (any Discipline) With Gate Score)
+</a></li><br/>
+
+<br/>
+<li><a href="https://forms.gle/kt3uo67h4Rx9ZxeC8" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Call for Project Proposals under Scheduled Caste Sub Plan (SCSP)
+(Click here to fill the forms) Last date: 28/12/2023 </a></li><br/>
+<br/>
+
+<br/>
+<li><a href="assets/images/files/.docx" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Download Draft format for Project Proposals under Scheduled Caste Sub Plan (SCSP)
+(Click here to download)</a></li><br/>
+<br/>
+<li><a href="https://forms.gle/NHhCDt3Z2ZbumBpQA" style="color: white" target="_newTab">New<sup><span class="btn-xs btn-danger"></span></sup>Online application for Startup proposals
+</a></li>
+<br/>
+<li><a href="Nageswara-Rao-Peela-adv-draft.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup> Advertisement for the post of JRF for Underwater Natural Resources to Disinfectants and Corrosion Resistant Materials
+</a></li><br/>
+<li><a href="assets/images/files/Technical Assistant PS ROBI.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup> Advertisement for the post of Technical
+Assistant (Diploma in Mechanical Engineering) (Extended Till 30/10/2023)
+</a></li><br/>
+<li><a href="assets/images/files/JRF MOHIT LAL NIT ROURKELA.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (B. Tech (Mechanical/ Computer
+Science/ Electronics/Instrumentation Engineering)  (Extended Till 15/11/2023)
+</a></li><br/>
+<li><a href="assets/images/files/PRANAB MONDAL IITG.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of JRF (B. Tech (Mechanical Engineering or
+Equiavalent) 
+</a></li><br/>
+<li><a href="assets/images/files/advertsment darft Associate ME (1).pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of Associate Engineer
+(ME) (M. Tech in ME + 1 Year Experience after M. Tech or B.Tech in ME + 3Years Experience after B. Tech)
+</a></li><br/>
+<li><a href="assets/images/files/advertsment darft faculty fellow.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of Faculty Fellow (Ph. D Degree or Thesis Submitted in ME/CSE/ ECE/ EEE/EE or Equivalent Relevant field.) 
+</a></li><br/>
+<li><a href="assets/images/files/adv draft nelson muthu 22.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of JRF (B.Tech (Mechanical Engineering or
+Equivalent)) 
+</a></li><br/>
+<li><a href="assets/images/files/208898c3fbfaad7f3959305276c1a47c.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of JRF (B.Tech (Mechanical Engineering or
+Equivalent)) 
+</a></li><br/>
+<li><a href="assets/images/files/rk mittal recruitment jrf.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (B.Tech (Mechanical Engineering or
+Equivalent)) 
+</a></li><br/>
+<li><a href="assets/images/files/Assistant Engineer ME.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of Assistant Engineer
+(ME/PI) ( B. Tech or Equivalent (in ME/PI or in relevant field))
+</a></li><br/>
+<li><a href="assets/images/files/ASSISTANT ENGINEER EEE.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of Assistant
+Engineer (EEE/ECE/EE) ( B. Tech or Equivalent (in ECE/EEE/
+EE/ CSE or in relevant field))
+</a></li><br/>
+<li><a href="assets/images/files/Assistant Engineer CSE.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of Assistant
+Engineer (CSE) ( B. Tech or Equivalent (in CSE/ECE/EEE or in relevant field))
+</a></li><br/>
+<li><a href="assets/images/files/Technical Assistant ME.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of Technical Assistant
+(ME/PI) (ITI+ 3 Years Experience / Diploma+ 1 Year Experience in relevant field )
+</a></li><br/>
+<li><a href="https://forms.gle/NHhCDt3Z2ZbumBpQA" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Online application for Startup proposals 
+</a></li>
+<br/>
+<li><a href="https://forms.gle/5PSPm3N1D3XcmHmv6" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Online application for Entrepreneur in Residence (EIR) proposals
+</a></li>
+<br/>
+<li><a href="assets/images/files/ProjectProposal1.docx" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Call for Project Proposal on Technologies for Underwater Exploration (Click here to download project proposal template)</a></li><br/>
+<br/>
+<li><a href="assets/images/forms/ProjectProposal_SCSP.doxc" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger">New </span></sup>Advertisement for the post of JRF ( B.Tech ( Mechanical Engineering/ Computer Science and Engineering or Equivalent))
+</a></li><br/>
+<li><a href="assets/images/files/rk jha Advertisement Draft.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF ( B.Tech ( Electronics and Electrical Engineering or equivalent))
+</a></li><br/>
+<li><a href="assets/images/files/Vinayak Kulkarni Advertisement Draft.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (B.Tech ( Mechanical Engineering or equivalent))
+</a></li><br/>
+<li><a href="assets/images/files/JRF, PI- SHEENA VIT CHENNAI.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (B.Tech ( Mechanical Engineering or equivalent))
+</a></li><br/>
+<li><a href="assets/images/files/JRF, PI- MOURINA GHOSH.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (B.Tech (Electronics and instrumentation, ECE, Mechatronics or equivalent)) (Extended till August 28, 2023)
+</a></li><br/>
+<li><a href="assets/images/files/JRF, PI- SAJAN KAPIL.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (B.Tech (Mechanical Engineering or equivalent))
+</a></li><br/>
+<li><a href="https://forms.gle/NHhCDt3Z2ZbumBpQA" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Online application for Startup proposals 
+</a></li>
+<br/>
+<li><a href="https://forms.gle/5PSPm3N1D3XcmHmv6" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Online application for Entrepreneur in Residence (EIR) proposals
+</a></li>
+<br/>
+<li><a href="assets/images/files/ProjectProposal1.docx" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Call for Project Proposal on Technologies for Underwater Exploration (Click here to download project proposal template)</a></li><br/>
+<br/>
+<li><a href="assets/images/files/Advertisement PI Chandan Kumar (1).pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (Bachelor’s degree in
+Electrical) Last date- 15/06/2023)
+</a></li>
+<li><a href="assets/images/files/Advertisement PI D Pamu.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of JRF (B. Tech with Gate
+Score Last date- 15/06/2023)
+</a></li>
+<li><a href="assets/images/files/Advertisement PI Saurav Suman.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of JRF (B. Tech ( Mechanical/
+Electronics/ Robotics/
+Mechatronics
+Engineering Last date- 15/06/2023)
+</a></li>
+<li><a href="assets/images/files/Advertisement Draft Subhendu Maity new.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of JRF (B.Tech ( Mechanical Engineering ) Last date- 19/06/2023)
+</a></li>
+<li><a href="assets/images/files/Advertisement Draft poonam maam new.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of JRF (B.Tech ( Mechanical Engineering ) Last date- 15/06/2023)
+</a></li>
+<li><a href="assets/images/files/Final Advertisement Post Doc 2....pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of Post Doc Fellow (PhD degree)
+</a></li>
+<li><a href="assets/images/files/JRF 9.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (B.Tech ( Chemical Engineering or Equivalent) with GATE Score) )
+</a></li>
+<br/><li><a href="assets/images/files/JRF 10.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (B. Tech / B.E. in Mechanical/ Mechatronics/ Manufacturing/ Electronics and Communication/ Biomedical )
+</a></li>
+<br/><li><a href="assets/images/files/JRF 11.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (B. Tech / B.E. in Mechanical/ Mechatronics/ Manufacturing/ Electronics and Communication/ Biomedical )
+</a></li>
+<br/><li><a href="assets/images/files/JRF 12.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (B. Tech / B.E. in Mechanical/ Mechatronics/ Manufacturing/ Electronics and Communication/ Biomedical )
+</a></li>
+<br/><li><a href="assets/images/files/JRF 13.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of JRF (B. Tech / B.E. in Mechanical/ Mechatronics/ Manufacturing/ Electronics and Communication/ Biomedical )
+</a></li>
+<li><a "https:="" 5pspm3n1d3xcmhmv6"="" forms.gle="" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Online application for Entrepreneurship proposals (Extended till March 31, 2023)
+</a></li>
+<br/>
+<li><a href="https://iitg.ac.in/tihue/Business.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>BUSINESS ECOSYSTEM FOR
+ENTREPRENEURS (2nd Edition)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/JRF 8.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF ((Mechanical 
+Engineering or 
+Equivalent)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/JRF 9.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (EEE/ECE/ETC/E&amp;I/Material 
+Science / Metallurgy), Msc in 
+(Physics/Chemistry)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/MATL.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup> 5-day Online Workshop on Dynamics and Control
+of Mechanical,
+Electrical and Robotic
+Systems through
+MATLAB(18/02/2023 to 22/02/2023)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/DWBS.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup> 5-day Online Workshop on Drones: Basics &amp; Applications (11/02/2023 to 15/02/2023)( This workshop is postponed till further notice) </a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/JRF7.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (Bachelor Degree in 
+Electrical or related 
+Engineering)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/JRF6.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of JRF (M.Tech in Structural Engineering/M.Tech in Manufacturing Engineering or equivalent degree)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/JRF5.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (Bachelor Degree in
+Engineering)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/JRF3.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Ad-hoc Advertisement for the post of JRF (ME/M.tech or BE/B.Tech in Mechanical
+Engineering)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/jrf3.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Ad-hoc Advertisement for the post of JRF (Bachelor Degree in
+Engineering)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/MLW.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup> 5-day Online Workshop on Machine Learning &amp; Deep Learning Techniques with Applications (07/01/2023 to 11/01/2023)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/jrf2.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Ad-hoc Advertisement for the post of JRF (B.Tech in Mechanical 
+Engineering)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/jrf1.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Ad-hoc Advertisement for the post of JRF (M.Sc Physics/M-Tech
+Nanotechnology)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/Jrf.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF (B-Tech in Mechanical Engineering and M-Tech in Thermo-Fluid Engineering or equivalent)</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/guide.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>TIH Logo Design Contest Guidelines</a></li><br/>
+<li><a href="https://forms.gle/UupcrQHETcXD4c7h9" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>TIH Logo Design Contest Registration Link</a></li><br/>
+<li><a href="https://iitg.ac.in/tihue/hpc/index.html" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>High Performance GPU Computing Facility available at TIH</a></li><br/>
+<li><a href="https://forms.gle/NHhCDt3Z2ZbumBpQA" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Online application for Startup proposals (Extended till December 31, 2022)
+</a></li>
+<br/>
+<li><a href="assets/images/files/JRF.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Ad-hoc Advertisement for the post of JRF (M-Tech in Mechanical/Production/Design/Foundry and Forge Technology) </a></li><br/>
+<li><a href="https://forms.gle/NHhCDt3Z2ZbumBpQA" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Online application for Startup proposals (Extended till December 31, 2022)
+</a></li>
+<br/>
+<li><a href="https://forms.gle/5PSPm3N1D3XcmHmv6" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Online application for Entrepreneurship proposals (Extended till December 31, 2022)
+</a></li>
+<br/>
+<li><a href="assets/images/files/ProjectProposal.docx" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Call for Project Proposal on Technologies for Underwater Exploration (Click here to download project proposal template) (Extended till December 31, 2022)</a></li><br/>
+<li><a href="assets/images/files/Banner.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>TIH assisted Two-days Training program on River Bank Erosion Stabilization and River Modelling (On 20th and 21st Sept, 2022) Click here to know more </a></li><br/>
+<li><a href="assets/images/files/BrochureUW.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Workshop on Underwater Welding(10th October 2022 -
+14th October 2022) Click here to know more </a></li><br/>
+<li><a href="assets/images/files/Schedule.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Schedule for Condensed Course on Business Ecosystem for Entrepreneurs by IITG TIDF (14th September 2022 -
+30th September 2022) (Last date of registration is 11th September)  </a></li><br/>
+<li><a href="assets/images/files/brochure.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Condensed Course on Business Ecosystem for Entrepreneurs by IITG TIDF (14th September 2022 -
+30th September 2022) (Last date of registration is 11th September) Click here to know more </a> </li><br/>
+<li><a href="assets/images/files/Bio.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Ad-hoc Advertisement for the post of JRF(B.Tech/ B.E. in Mechanical/Mechatronics) </a> </li><br/>
+<li><a href="assets/images/files/Mtechmechandcivil.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Advertisement for the post of JRF(M-Tech in Mechanical 
+Or Civil Engineering)  </a></li><br/>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdfm6nc83dkpavieAwNu_KVGL1Il4rtSP4VVx6Bzv36WnLN1A/viewform?usp=sf_link" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Advertisement for the post of JRF(B.Tech/ B.E. in Mechanical/Mechatronics/Electronics and 
+Communication/ Electrical and 
+electronics/ Electrical/Computer 
+Science/Biomedical Engineering) </a> </li><br/>
+<li> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfm6nc83dkpavieAwNu_KVGL1Il4rtSP4VVx6Bzv36WnLN1A/viewform?usp=sf_link" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup><b>Click here to apply via google form </b>"Advertisement for the post of JRF(B.Tech/ B.E. in Mechanical/Mechatronics/Electronics and 
+Communication/ Electrical and 
+electronics/ Electrical/Computer 
+Science/Biomedical Engineering)"</a></li><br/>
+<li><a href="assets/images/files/ProjectProposal.docx" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Update on the problems/requirements of line ministries/industry posed to TIHs under NM-ICPS (Click here to download project proposal template)</a></li><br/>
+<li><a href="https://forms.gle/WCxaSc2nbj2m2Vn49" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Online application for Graduate Internship (Extended till September 31, 2022)
+</a></li>
+<br/>
+<li><a href="assets/images/files/Mtechmech.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Ad-hoc Advertisement for the post of JRF(M-Tech in Mechanical 
+/Electronics)  </a></li><br/>
+<li><a href="assets/images/files/Btechmech.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Ad-hoc Advertisement for the post of JRF(B-Tech + MBA)  </a></li><br/>
+<li><a href="assets/images/files/JRFConsys.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Ad-hoc Advertisement for the post of JRF(M-Tech in Control System/allied specialization with knowledge of image processing)  </a></li><br/>
+<li><a href="assets/images/files/JRFMtechne.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Ad-hoc Advertisement for the post of JRF( M-Tech in Water Resource/Fluid Dynamics Desirable- Knowledge of bathymetry)  </a></li><br/>
+<li><a href="assets/images/files/Adece.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Ad-hoc Advertisement for the post of JRF(ECE)  </a></li><br/>
+<li><a href="assets/images/files/Admech.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Ad-hoc Advertisement for the post of JRF(Mechanical) </a></li><br/>
+<li><a href="https://forms.gle/WCxaSc2nbj2m2Vn49" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Online application for Graduate Internship (Extended till August 31, 2022)
+</a></li>
+<br/>
+</marquee>
+</ul> <br/><br/> <a href="https://iitg.ac.in/tihue/noti.html" style="color: white" target="_newTab">Click here to view all notifications</a>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="profile-teaser">
+<div class="why-choose-us-content text-center mb-80 wow fadeInUp" data-wow-delay="300ms">
+<div class="chosse-us-icon">
+<i aria-hidden="true" class="fa fa-calendar"></i>
+</div>
+<h3 style="color: white"><u>Course/News/Events</u></h3><br/>
+<ul><marquee behavior="scroll" direction="up" height="300" onmouseout="this.start();" onmouseover="this.stop();" scrollamount="2">
+<li><a href="assets/images/files/Brochure_ Project Management &amp; Execution.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Short Course On
+(PROJECT
+MANAGEMENT &amp; EXECUTION) 
+</a></li>
+<li><a href="assets/images/files/AM Workshop - For Website.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Additive Manufacturing Workshop
+</a></li>
+<li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjFkYzY3ZGItYzZkNy00ODM2LWIxNjYtMmQ2YzU0OWI5NzYy%40thread.v2/0?context=%7b%22Tid%22%3a%22850aa78d-94e1-4bc6-9cf3-8c11b530701c%22%2c%22Oid%22%3a%22b63de11e-d3f9-4d4e-b7ed-541d07f095b7%22%7d" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>International Conference on River Corridor Research and Management</a></li><br/>
+<li><a href=" https://meet.google.com/woj-fedw-cik" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Online Workshop for SolidCAM Software   (click here to join)</a></li><br/>
+<li><a href="https://forms.gle/VgPWF5cz9Sj3kDBZ7" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Launching of Center for Intelligent Cyber Physical Systems at IIT Guwahati (Media Coverage)</a></li><br/>
+<li><a href="https://www.iitg.ac.in/cicps/files/MediaCoverage.pdf" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Dr. (Cdr) Arnab Das, Founder &amp; Director of the Maritime Research Centre (MRC), Pune, will deliver a talk on "Underwater Domain Awareness (UDA) Framework: Challenges &amp; Opportunities" on 9th September 2021 at 17:00</a></li><br/>
+<li><a href="" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Two days Workshop on 30th and 31st August 2021 (from 9:30 am to 6:00 pm) where the experts are invited to deliver a talk related to "Underwater Technologies and Challenges Associated" with their domain to understand the live - problems associated with their organizations.</a></li><br/>
+<li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjgwOTc2MmMtMTM0Zi00NDMwLTljNTgtYjE4ZWE0OTM2NWNh%40thread.v2/0?context=%7b%22Tid%22%3a%22850aa78d-94e1-4bc6-9cf3-8c11b530701c%22%2c%22Oid%22%3a%223f438cac-6a56-4ef5-a27d-d33368c50d1a%22%7d" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"> </span></sup>Mr. S. P. Swant, (Welding Engineer and Mechanical Engineer, ASNT Level III, AWS - Certified Welding Inspector, CSWIP - TWI (Cambridge - UK),
+International Welding Technologist (IWT), NACE CIP Level-2 Certified, Lead Auditor ISO 9001 , Lead Auditor TS 16949, AIAG Supplier Auditor), is delivering a talk with the team of the TIH-IITG on ""Underwater Welding: Challenges and Opportunities"" at 23rd August 2021, 5 PM.</a></li><br/>
+<li><a href="" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Mr. GILBERT V. ANTONY, a professional underwater diver, is delivering a talk and interact with the team of the TIH-IITG on "AN IMMERSIVE VIEW INTO COMMERCIAL DIVING  (Challenges and Opportunities)" at 16th August 2021, 2 PM.</a></li><br/>
+<li><a href="https://meet.google.com/ssy-daod-zfk" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup>Prof. N R Mandal, Former Professor, Ocean Engineering and Naval Architecture, IIT Kharagpur, is delivering a talk and interact with the team of the TIH-IITG on "Challenges and Opportunities in Underwater Technologies" at 17th June, 10 AM.</a></li><br/>
+<li><a href="" style="color: white" target="_newTab"><sup><span class="btn-xs btn-danger"></span></sup> Hon'ble chairman of "Marine Products Export Development Authority (MPEDA), K.S. Srinivas, I.A.S., interacted with TIH-IITG members regarding problems faced on Underwater Exploration. </a></li>
+<br/>
+<br/>
+</marquee>
+</ul> <br/><br/> <a href="https://iitg.ac.in/tihue/News.html" style="color: white" target="_newTab">Click here to view all News and Events</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section why-us" data-section="section2">
+<div class="container"> <hr/>
+<div class="row">
+<div class="col-md-12">
+<div class="section-heading">
+<h2>About Us</h2>
+</div>
+</div>
+<div class="col-md-12">
+<div id="tabs">
+<ul>
+<li><a href="#tabs-1">Introduction</a></li>
+<li><a href="#tabs-2">Vision</a></li>
+<li><a href="#tabs-3">Hub Governing Body</a></li>
+</ul>
+<section class="tabs-content">
+<article id="tabs-1">
+<div class="row">
+<div class="col-md-6">
+<img alt="" height="360" src="assets/images/intro.png" width="480"/>
+</div>
+<div class="col-md-6">
+<h4>Technology for Underwater Exploration</h4>
+<p>Developing Technology for Underwater system development, Underwater vision, Underwater Monitoring and Surveillance and Intelligent tracking. </p>
+</div>
+</div>
+</article>
+<article id="tabs-2">
+<div class="row">
+<div class="col-md-6">
+<img alt="" height="360" src="assets/images/vision.png" width="480"/>
+</div>
+<div class="col-md-6">
+<h4>Our Vision</h4>
+<p>Indigenous  design  and  development  of  Mechanical  Structures,  Prime  Movers,  Sensors, Controllers,  Software,  and  Communication  systems,  for  underwater  application  will  be  the prime focus of this Technology Innovation Hub (TIH). IIT Guwahati will provide a platform for bringing the experts together for generation of the knowledge through basic and applied research   which   can   lead   to   generate   several   entrepreneurs,   start-up   companies,   skill developments, jobs, and research opportunities in this area.</p>
+<p></p>
+</div>
+</div>
+</article>
+<article id="tabs-3">
+<div class="row">
+<div class="col-md-12">
+<img alt="" height="460" src="assets/images/hub.png" width="580"/>
+</div>
+<div class="col-md-6">
+<h4></h4>
+<p></p>
+</div>
+</div>
+</article>
+</section>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section courses" data-section="section3">
+<div class="container"><hr/></div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<div class="section-heading">
+<h2>Faculty Members of IITG</h2>
+</div>
+</div>
+</div>
+<div class="owl-carousel owl-theme">
+<div class="item">
+<img src="https://www.iitg.ac.in/director/images/1.jpg"/>
+<div class="down-content">
+<h4>Director, IITG</h4>
+<h4>Project Investigator</h4>
+<p><b>Prof. Dr. T.G.Sitharam</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582670<br/>
+<i class="fa fa-envelope-square"></i>: tgs@iitg.ac.in<br/>
+<a href="https://www.iitg.ac.in/director/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4120.original.jpg"/>
+<div class="down-content">
+<h4>Project Coordinator </h4>
+<p><b>Prof. Santosha K. Dwivedy</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582670<br/>
+<i class="fa fa-envelope-square"></i>: dwivedy@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/dwivedy"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/design/upload/images/faculties/AS2.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Abhishek Shrivastava</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582471<br/>
+<i class="fa fa-envelope-square"></i>: shri@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/shri/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/awekar/images/awekarsolo.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Amit Awekar</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582373<br/>
+<i class="fa fa-envelope-square"></i>: awekar@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/awekar/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/arijit/arijit_sur/me1.png"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Arijit Sur</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582361<br/>
+<i class="fa fa-envelope-square"></i>: arijit@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/arijit/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4221.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Atul K. Soti</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2583444<br/>
+<i class="fa fa-envelope-square"></i>: atulsoti@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/atulsoti/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitg.ac.in/mech/media/images/CET_4115.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Biranchi Panda</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582684<br/>
+<i class="fa fa-envelope-square"></i>: pandabiranchi@iitg.ac.in<br/>
+<a href="https://www.iitg.ac.in/mech/faculty/pandabiranchi/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ernet.in/civil/fac_images/Budhaditya_photo.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Budhaditya Hazra</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2583334<br/>
+<i class="fa fa-envelope-square"></i>: budhaditya.hazra@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/budhaditya.hazra/homepage/index.html/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitg.ac.in/eee/images/chandankumar.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof.Chandan Kumar</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2583467<br/>
+<i class="fa fa-envelope-square"></i>: pandabiranchi@iitg.ac.in<br/>
+<a href="https://www.iitg.ac.in/eee/chandank.html"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/design/upload/images/faculties/CM.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Charu Monga</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582470<br/>
+<i class="fa fa-envelope-square"></i>: charum@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/design/portfolio/bio-cm.pdf"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4225.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Deepak Sharma</b><br/>
+<i class="fa fa-phone"></i>:  +91 361 2582661<br/>
+<i class="fa fa-envelope-square"></i>: dsharma@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/dsharma/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/RGN_NEWPHOTO.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof. R. Ganesh Narayanan</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582669<br/>
+<i class="fa fa-envelope-square"></i>: ganu@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/ganu/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img height="300" src="http://www.iitg.ac.in/eee/images/hbn.jpg" width="235"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof. Harshal B. Nemade</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582509<br/>
+<i class="fa fa-envelope-square"></i>:harshal@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/eee/nemade.html#nemadeStart"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4157.original.jpg"/>
+<div class="down-content">
+<h4></h4>
+<p> <b>Prof. S.Kanagaraj</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582676<br/>
+<i class="fa fa-envelope-square"></i>: kanagaraj@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/kanagaraj/"><font color="blue">more..</font> </a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4278.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof.Karuna Kalita</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582680<br/>
+<i class="fa fa-envelope-square"></i>:  karuna.kalita@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/mech/faculty/shock/karunakalita"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/design/upload/images/faculties/MM.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Manoj Majhi</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582462<br/>
+<i class="fa fa-envelope-square"></i>: manojmaj@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/design/portfolio/bio-mm1.pdf"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitg.ac.in/eee/images/mahima.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Mahima Arrawatia</b><br/>
+<i class="fa fa-phone"></i>:  +91-361-258-3471<br/>
+<i class="fa fa-envelope-square"></i>: mahimaarrawatia@iitg.ac.in<br/>
+<a href="https://www.iitg.ac.in/eee/mahima.html"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitg.ac.in/eee/images/nagarjuna.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.N. Nagarjuna</b><br/>
+<i class="fa fa-phone"></i>: +91-361-2583462<br/>
+<i class="fa fa-envelope-square"></i>: nallam@iitg.ac.in<br/>
+<a href="https://www.iitg.ac.in/eee/nallam.html"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4292.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Nelson Muthu</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2583440<br/>
+<i class="fa fa-envelope-square"></i>: nelsonm@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/nelsonm/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4261.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof.Niranjan Sahoo</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582665<br/>
+<i class="fa fa-envelope-square"></i>:  shock@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/mech/faculty/shock/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4209.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof.Pankaj Biswas</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582675<br/>
+<i class="fa fa-envelope-square"></i>: pankaj.biswas@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/pankajbiswas/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/chemistry/fac/pki/2.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof. Parameswar K. Iyer</b><br/>
+<i class="fa fa-phone"></i>:  +91-361-258-2314<br/>
+<i class="fa fa-envelope-square"></i>: pki@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/chemistry/fac/pki/profile.html"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/pkdas/pkdas_pic.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Pradip K. Das </b><br/>
+<i class="fa fa-phone"></i>: +91 361 02582353<br/>
+<i class="fa fa-envelope-square"></i>: pkdas@iitg.ac.in <br/>
+<a href="http://www.iitg.ac.in/pkdas/index.html"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitg.ac.in/praveen_kumar/design/images/praveen.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Praveen Kumar</b><br/>
+<i class="fa fa-phone"></i>:  +91 361 2582525<br/>
+<i class="fa fa-envelope-square"></i>: praveen_kumar@iitg.ac.in<br/>
+<a href="https://www.iitg.ac.in/eee/praveen.html"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/eee/images/pguha.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Prithwijit Guha</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2583452<br/>
+<i class="fa fa-envelope-square"></i>: pguhaiitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/eee/pguha.html#pguhaStart"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/cse/myprofilepic?statusCode=6c154a1c0ab781176e7b73073db1b087&amp;pictureCode=r.duttabaruah"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Rashmi Dutta Baruah</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2583253<br/>
+<i class="fa fa-envelope-square"></i>: r.duttabaruah @ iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/r.duttabaruah/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/rbharti/assets/images/rkb-180-474x467.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Rishikesh Bharti</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2583340<br/>
+<i class="fa fa-envelope-square"></i>: rbharti@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/rbharti/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitg.ac.in/eee/images/rishikesh.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Rishikesh Dilip Kulkarni</b><br/>
+<i class="fa fa-phone"></i>:  +91-361-258-3472<br/>
+<i class="fa fa-envelope-square"></i>:  rishi.k@iitg.ac.in<br/>
+<a href="https://www.iitg.ac.in/eee/rishikesh.html"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4298.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof. P.S.Robi</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582668<br/>
+<i class="fa fa-envelope-square"></i>: psr@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/psr/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitg.ac.in/mech/media/images/CET_4279.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Sajan Kapil</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582685<br/>
+<i class="fa fa-envelope-square"></i>: sajan.kapil@iitg.ac.in<br/>
+<a href="https://www.iitg.ac.in/mech/faculty/sajankapil/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/eee/images/sd3.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof. Samarendra Dandapat</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582505<br/>
+<i class="fa fa-envelope-square"></i>: samaren@iitg.ac.in <br/>
+<a href="http://www.iitg.ac.in/samaren/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitg.ac.in/mech/media/images/CET_4134.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Sandeep Reddy Basireddy</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582685<br/>
+<i class="fa fa-envelope-square"></i>: bsandeepr@iitg.ac.in<br/>
+<a href="https://www.iitg.ac.in/mech/faculty/bsandeepr/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitg.ac.in/eee/images/sanjibg.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof.Sanjib Ganguly</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2583466<br/>
+<i class="fa fa-envelope-square"></i>: sganguly@iitg.ac.in<br/>
+<a href="https://www.iitg.ac.in/eee/sanjibg.html"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4231.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Satyajit Panda</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582664<br/>
+<i class="fa fa-envelope-square"></i>:  spanda@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/spanda/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/eee/images/sonali.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Sonali Chouhan</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582522<br/>
+<i class="fa fa-envelope-square"></i>: sonaliiitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/eee/sonali.html#sonaliStart"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/design/upload/images/faculties/SK.JPG"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Sougata Karmakar</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582464<br/>
+<i class="fa fa-envelope-square"></i>: manojmaj@iitg.ac.in<br/>
+<a href="https://www.iitg.ac.in/erglab/sk.html"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://i1.rgstatic.net/ii/profile.image/870410216292356-1584533375729_Q512/Shakuntala-Acharya.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Shakuntala Acharya</b><br/>
+<i class="fa fa-phone"></i>: 91-361 258 2477<br/>
+<i class="fa fa-envelope-square"></i>: shakuntala.a@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/design/Faculty.html?CurFaculty"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4146.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Shubhadeep Mandal</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582681<br/>
+<i class="fa fa-envelope-square"></i>: shubhadeep.mech@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/shubhadeep-mandal/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/cse/myprofilepic?statusCode=6c154a1c0ab781176e7b73073db1b087&amp;pictureCode=sbnair"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof.Shivashankar B. Nair </b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582356<br/>
+<i class="fa fa-envelope-square"></i>:  sbnair@iitg.ac.in<br/>
+<a href="https://sites.google.com/view/shivashankarbnair"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_3795-new.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Srikrishna N. Joshi</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582678<br/>
+<i class="fa fa-envelope-square"></i>:  snj@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/snj/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/civil/Dr.%20Subashisa%20Dutta/photo.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof. Subashisa Dutta</b><br/>
+<i class="fa fa-phone"></i>: +91 361 258 2415<br/>
+<i class="fa fa-envelope-square"></i>: subashisa@iitg.ac.in<br/>
+<a href="http://www.iitg.ac.in/civil/Dr.%20Subashisa%20Dutta/index.htm"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4230.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof.Sukhomay Pal </b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582656<br/>
+<i class="fa fa-envelope-square"></i>:  spal@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/spal/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://www.iitg.ac.in/sukumar/index_body_html_fa8c2a7d0e4f10cb.png"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof. Sukumar Nandi</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582357<br/>
+<i class="fa fa-envelope-square"></i>: sukumar@iitg.ac.in <br/>
+<a href="http://www.iitg.ac.in/sukumar/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://intranet.iitg.ac.in/mech/media/images/CET_4179.original.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof.Uday S. Dixit</b><br/>
+<i class="fa fa-phone"></i>: +91 361 2582657<br/>
+<i class="fa fa-envelope-square"></i>:  uday@iitg.ac.in<br/>
+<a href="https://intranet.iitg.ac.in/mech/faculty/uday/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</section>
+<section class="section courses" data-section="section4">
+<div class="container"><hr/></div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<div class="section-heading">
+<h2>Faculty Members from Other Institutes </h2>
+</div>
+</div>
+<div class="owl-carousel owl-theme">
+<div class="item">
+<img src="https://channeli.in/media/kernel/display_pictures/2b2d6e86-20b1-4d59-b04a-64f0206c3019.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Abinash Kumar Swain</b><br/>
+<i class="fa fa-phone"></i>: 01332285242<br/>
+<i class="fa fa-envelope-square"></i>: hmied@iitr.ac.in<br/>
+<a href="https://www.iitr.ac.in/~ME/Abinash_Kumar_Swain"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&amp;user=51TMv_AAAAAJ&amp;citpid=1"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Akhil Garg</b><br/>
+<i class="fa fa-phone"></i>:<br/>
+<i class="fa fa-envelope-square"></i>: akhil.nitrkl2010@gmail.com<br/>
+<a href="https://scholar.google.com/citations?user=51TMv_AAAAAJ&amp;hl=en"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://nerist.ac.in/sites/default/files/2016-05/arnab.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Arnab Bandyopadhyay</b><br/>
+<i class="fa fa-phone"></i>: +91 (0)360 2257401-08 Extns. 6102 <br/>
+<i class="fa fa-envelope-square"></i>: 	arnabbandyo@gmail.com<br/>
+<a href="https://nerist.ac.in/agriculture/faculties/arnab"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://i1.rgstatic.net/ii/profile.image/421021409660928-1477390734013_Q512/Barun-Pratiher.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Barun Pratiher</b><br/>
+<i class="fa fa-phone"></i>: +91 291 280 1505<br/>
+<i class="fa fa-envelope-square"></i>: barun@iitj.ac.in<br/>
+<a href="https://iitj.ac.in/department/facultyprofile.php?str=barun@iitj.ac.in&amp;dept=me"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.nitmz.ac.in/ImageGenerator.aspx?imgID=30140&amp;command=profile_pic&amp;w=100&amp;h=100"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Basil Kuriachen</b><br/>
+<i class="fa fa-phone"></i>: 	9947187133<br/>
+<i class="fa fa-envelope-square"></i>: 	basilkuriachen@gmail.com<br/>
+<a href="https://www.nitmz.ac.in/emp_profile.aspx?nDeptID=gacia"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitbbs.ac.in/faculty/iit_1355746361.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Barathram. Ramkumar</b><br/>
+<i class="fa fa-phone"></i>: 6747135710<br/>
+<i class="fa fa-envelope-square"></i>: barathram@iitbbs.ac.in<br/>
+<a href="https://www.iitbbs.ac.in/profile.php/barathram/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.vssut.ac.in/faculty/bikramaditya-das.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Bikramaditya Das</b><br/>
+<i class="fa fa-phone"></i>:9437336969<br/>
+<i class="fa fa-envelope-square"></i>:bdas_etc@vssut.ac.in<br/>
+<a href="https://www.vssut.ac.in/faculty-profile.php?furl=bikramaditya-das"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="data:image/jpeg;base64,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"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof. Binoy Krishna Roy</b><br/>
+<i class="fa fa-phone"></i>: (03842)-240142<br/>
+<i class="fa fa-envelope-square"></i>: bkr@nits.ac.in<br/>
+<a href="https://samviti.com/profile/binoy-roy-MjA5Mg=="><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.vssut.ac.in/faculty/d.chandrasekhar-rao_photo1606604783.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. D. Chandrasekhar Rao</b><br/>
+<i class="fa fa-phone"></i>:+91-9337724582<br/>
+<i class="fa fa-envelope-square"></i>: dcrao_it@vssut.ac.in<br/>
+<a href="https://www.vssut.ac.in/faculty-profile.php?furl=d.chandrasekhar-rao"><font color="blue">more.. </font></a></p>
+</div></div>
+<div class="item">
+<img src="https://www.nitmz.ac.in/ImageGenerator.aspx?imgID=48&amp;command=profile_pic&amp;w=100&amp;h=100"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Chaitali Koley</b><br/>
+<i class="fa fa-phone"></i>: 8794620464<br/>
+<i class="fa fa-envelope-square"></i>: koley.chaitali@rediffmail.com<br/>
+<a href="https://www.nitmz.ac.in/emp_profile.aspx?nDeptID=iq"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.nitrkl.ac.in/docs/Faculty/Photo/192622.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Dayal R. Parhi</b><br/>
+<i class="fa fa-phone"></i>: <br/>
+<i class="fa fa-envelope-square"></i>: drkparhi@nitrkl.ac.in<br/>
+<a href="https://www.iitrpr.ac.in/smmee/ravikant"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitrpr.ac.in/sites/default/files/ekta.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Ekta Singla</b><br/>
+<i class="fa fa-phone"></i>: +91 1881 242160<br/>
+<i class="fa fa-envelope-square"></i>: ekta@iitrpr.ac.in<br/>
+<a href="https://www.iitrpr.ac.in/smmee/ekta"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<!--<img src="https://www.evcana.com/english.mse/__local/A/D6/00/24BF82A33C12A8DE30BFF75640E_5A20F86B_10DD5.jpg">-->
+<img src="../public_html/assets/images/blank.jpg">
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof. Gao Liang</b><br/>
+<i class="fa fa-phone"></i>: 027-87559419<br/>
+<i class="fa fa-envelope-square"></i>: gaoliang@mail.hust.edu.cn<br/>
+<a href="https://www.evcana.com/english.mse/info/1076/1313.htm"><font color="blue">more.. </font></a></p>
+</div>
+</img></div>
+<div class="item">
+<img src="http://9110989.s21i.faiusr.com/4/ABUIABAEGAAggJfyzQUo066V3QUw1Qk4_wo!200x200.png"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Jian Zhang</b><br/>
+<i class="fa fa-phone"></i>:<br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="http://www.pdr-group.org/nd.jsp?id=44"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://cs.nyu.edu/media/faculty_photos/lerrel.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Lerrel Pinto</b><br/>
+<i class="fa fa-phone"></i>: 	Ext: 8-3514 <br/>
+<i class="fa fa-envelope-square"></i>: lerrel@cs.nyu.edu<br/>
+<a href="https://www.lerrelpinto.com/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<!--<img src="https://www.drdo.gov.in/sites/default/files/dg_profile_image/dtrl-director.jpg">-->
+<img src="../public_html/assets/images/blank.jpg">
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.Lokesh Kumar Sinha</b><br/>
+<i class="fa fa-phone"></i>: <br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="https://www.drdo.gov.in/labs-establishment/director/defence-terrain-research-laboratory-dtrl"><font color="blue">more.. </font></a></p>
+</div>
+</img></div>
+<div class="item">
+<!--<img src="http://iiti.ac.in/people/~palaniia/images/pilani.jpg">-->
+<img src="../public_html/assets/images/blank.jpg">
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr.I.A. Palani</b><br/>
+<i class="fa fa-phone"></i>: +91-731-6603232 <br/>
+<i class="fa fa-envelope-square"></i>: palaniia[at]iiti.ac.in<br/>
+<a href="http://iiti.ac.in/people/~palaniia/"><font color="blue">more.. </font></a></p>
+</div>
+</img></div>
+<div class="item">
+<img src="https://channeli.in/media/kernel/display_pictures/d2a71df5-1652-4246-a7a4-687f5e9f4fba.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Prof. P.M. Pathak</b><br/>
+<i class="fa fa-phone"></i>: 91-1332-285608<br/>
+<i class="fa fa-envelope-square"></i>:  pushparaj.pathak@me.iitr.ac.in<br/>
+<a href="https://www.iitr.ac.in/~ME/Pathak_Pushparaj_Mani"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://iiti.irins.org/assets/profile_images/93831.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Pavan Kumar Kankar</b><br/>
+<i class="fa fa-phone"></i>: +91 731-6603427<br/>
+<i class="fa fa-envelope-square"></i>:  pkankar@iiti.ac.in <br/>
+<a href="http://people.iiti.ac.in/~meiiti/index.php/dr-pavan-kumar-kankar/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.nitap.ac.in/storage/faculty/48363bfe167b9314705b5137c8d761024092fd6d.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Prases Kumar Mohanty</b><br/>
+<i class="fa fa-phone"></i>:  9485236260<br/>
+<i class="fa fa-envelope-square"></i>:  prases@nitap.ac.in<br/>
+<a href="https://www.nitap.ac.in/department/faculty_profile?name=prases&amp;dept=89f0915482"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitbbs.ac.in/faculty/iit_1571762287.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Pravas Ranjan Sahu</b><br/>
+<i class="fa fa-phone"></i>: +91-674-713-5740<br/>
+<i class="fa fa-envelope-square"></i>:  prs@iitbbs.ac.in<br/>
+<a href="https://www.iitbbs.ac.in/profile.php/prs/"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="https://www.iitrpr.ac.in/sites/default/files/JC_4649.jpg"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Ravi Kant</b><br/>
+<i class="fa fa-phone"></i>: (+91) 661 246 2514<br/>
+<i class="fa fa-envelope-square"></i>: ravi.kant@iitrpr.ac.in<br/>
+<a href="https://www.nitrkl.ac.in/FProfile.aspx?e=drkparhi"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<img src="http://ubkv.ac.in/Faculty_of_Technology/faculty/rupak.JPG"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Rupak Sarkar</b><br/>
+<i class="fa fa-phone"></i>: +91-3582270948 <br/>
+<i class="fa fa-envelope-square"></i>: rupaks19@yahoo.co.in <br/>
+<a href="http://ubkv.ac.in/Faculty_of_Technology/rupak.pdf"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<!--<img src="http://www.iitbbs.ac.in/faculty/iit_1572732238.jpg">-->
+<img src="../public_html/assets/images/blank.jpg">
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. M. Sabarimalai Manikandan</b><br/>
+<i class="fa fa-phone"></i>: 	+91-0674-713-5726 <br/>
+<i class="fa fa-envelope-square"></i>: msm@iitbbs.ac.in<br/>
+<a href="https://www.iitbbs.ac.in/profile-print.php?furl=msm"><font color="blue">more.. </font></a></p>
+</div>
+</img></div>
+<div class="item">
+<img src="https://ijoaemorg.files.wordpress.com/2017/02/asssg.png"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Sahadev Roy</b><br/>
+<i class="fa fa-phone"></i>: 9436272805 <br/>
+<i class="fa fa-envelope-square"></i>: sahadevroy@nitap.ac.in<br/>
+<a href="https://nitap.irins.org/profile/121073"><font color="blue">more.. </font></a></p>
+</div>
+</div>
+<div class="item">
+<!-- <img src="https://www.iitdh.ac.in/image/fac/sangamesh.jpg">-->
+<img src="../public_html/assets/images/blank.jpg">
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Sangamesh Deepak R</b><br/>
+<i class="fa fa-phone"></i>: +91-836-2212-899<br/>
+<i class="fa fa-envelope-square"></i>: sangamesh@iitdh.ac.in<br/>
+<a href="https://iitdh.irins.org/profile/128058"><font color="blue">more.. </font></a></p>
+</div>
+</img></div>
+<div class="item">
+<img src="https://iitpkd.ac.in/sites/default/files/styles/profile_page_image/public/pictures/2018-12/PHSanthakumar.jpg?itok=dGLb3jqL"/>
+<div class="down-content">
+<h4> </h4>
+<p><b>Dr. Santhakumar Mohan</b><br/>
+<i class="fa fa-phone"></i>: +91-4923-226-434 <br/>
+<i class="fa fa-envelope-square"></i>: santhakumar@iitpkd.ac.in<br/>
+<a href="https://iitpkd.ac.in/people/santhakumar" style="color:blue">more.. </a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<!--Faculty Fellow Area
+  <section class="section courses" data-section="section5">
+    <div class="container"><hr></div>  
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Chief Executive Officer</h2>
+            </div> 
+          </div>
+            <div class="ceo">
+              <div class="item" style="align-items: center;">
+                <img src="assets/images/Staffpic/nndutta.jpeg">
+                  <div class="down-content">
+                    <h4>N N Dutta</h4>
+                        <i class="fa fa-envelope-square"></i>: nndutta@tih.iitg.ac.in<br>
+                    <a href="" style="color:blue">more..</a></p>
+                  </div>
+              </div>     
+            </div>
+                                                            
+          </div>
+        </div>
+      </div>
+  </section>-->
+<!--Faculty Fellow End Area-->
+<!--Employees Area-->
+<section class="section courses" data-section="section5">
+<div class="container"><hr/></div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<div class="section-heading">
+<h2>Employees</h2>
+</div>
+</div>
+<div class="owl-carousel owl-theme">
+<div class="item">
+<img src="assets/images/Staffpic/arijit.jpg"/>
+<div class="down-content">
+<h4>Associate Engineer</h4>
+<p><b>Arijit Dey</b><br/>
+<i class="fa fa-envelope-square"></i>: arijitdey@rnd.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/anurag.jpg"/>
+<div class="down-content">
+<h4>Associate Engineer</h4>
+<p><b>Anurag Tiwari</b><br/>
+<i class="fa fa-envelope-square"></i>:anurag674@rnd.iitg.ac.in <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/alok.jpg"/>
+<div class="down-content">
+<h4>Assistant Engineer</h4>
+<p><b>Alok Singh Negi</b><br/>
+<i class="fa fa-envelope-square"></i>: alok24@rnd.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/ASHIM.jpg"/>
+<div class="down-content">
+<h4>Administrative Assistant cum Accountant</h4>
+<p><b>Ashim Das</b><br/>
+<i class="fa fa-envelope-square"></i>: ashimdas@rnd.iitg.ac.in<br/>
+<b>Extn: 3973</b><br/>
+<a href="" style="color:blue" target="_newTab">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/susmita.jpg"/>
+<div class="down-content">
+<h4>Administrative Assistant cum Accountant</h4>
+<p><b>Susmita Deka</b><br/>
+<i class="fa fa-envelope-square"></i>: susmitadeka@rnd.iitg.ac.in<br/>
+<a href="" style="color:blue" target="_newTab">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/mahato.jpg"/>
+<div class="down-content">
+<h4>Technical Assistant</h4>
+<p><b>Ashish Kumar Mahato</b><br/>
+<i class="fa fa-envelope-square"></i>: mahato@rnd.iitg.ac.in<br/>
+<a href="https://www.linkedin.com/in/ashish-kumar-mahato-098205211/" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/rajan.jpeg"/>
+<div class="down-content">
+<h4>Technical Assistant</h4>
+<p><b>Rajan Gupta</b><br/>
+<i class="fa fa-envelope-square"></i>: rajan1999@rnd.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/kkn.jpg"/>
+<div class="down-content">
+<h4>Technical Assistant</h4>
+<p><b>Kishor Kumar Nath</b><br/>
+<i class="fa fa-envelope-square"></i>: kishorkumarnath@rnd.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/sachit.jpeg"/>
+<div class="down-content">
+<h4>Technical Assistant</h4>
+<p><b>Sachit Narayan Pandey</b><br/>
+<i class="fa fa-envelope-square"></i>:<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/abhradeep.jpg"/>
+<div class="down-content">
+<h4>Associate Engineer</h4>
+<p><b>Abhradeep Das</b><br/>
+<i class="fa fa-envelope-square"></i>: abhradeepdas@tih.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/bikky.jpg"/>
+<div class="down-content">
+<h4>Technical Assistant</h4>
+<p><b>Bikky Brahma</b><br/>
+<i class="fa fa-envelope-square"></i>: bikky@tih.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/rimeshikha.jpg"/>
+<div class="down-content">
+<h4>Assistant Engineer</h4>
+<p><b>Rimeshikha Saikia</b><br/>
+<i class="fa fa-envelope-square"></i>: rimeshikha@tih.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/priya.jpg"/>
+<div class="down-content">
+<h4>Assistant Engineer</h4>
+<p><b>Priya Kemprai</b><br/>
+<i class="fa fa-envelope-square"></i>: priyakemp@tih.iitg.ac.in <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/blank.jpg"/>
+<div class="down-content">
+<h4>Assistant Engineer</h4>
+<p><b>Ashima Medhi</b><br/>
+<i class="fa fa-envelope-square"></i>: ashimamedhi@tih.iitg.ac.in <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/Diwa.jpg"/>
+<div class="down-content">
+<h4>Assistant Engineer</h4>
+<p><b>M.Diwakar</b><br/>
+<b>Alumnus</b><br/>
+<i class="fa fa-envelope-square"></i>: dhiwa1996@rnd.iitg.ac.in<br/></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/nikhil.jpg"/>
+<div class="down-content">
+<h4>Assistant Engineer</h4>
+<p><b>Nikhil Kumar Choudhary</b><br/>
+<b>Alumnus</b><br/>
+<i class="fa fa-envelope-square"></i>: nkc@rnd.iitg.ac.in<br/>
+</p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/om.jpg"/>
+<div class="down-content">
+<h4>Technical Assistant</h4>
+<p><b>Om Kumar</b><br/>
+<b>Alumnus</b><br/>
+<i class="fa fa-envelope-square"></i>: omkumar@rnd.iitg.ac.in<br/>
+</p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/a.jpg"/>
+<div class="down-content">
+<h4>Assistant Project Engineer</h4>
+<p><b>Garima Agarwal </b><br/>
+<b>Alumnus</b><br/>
+<i class="fa fa-envelope-square"></i>: garima14@rnd.iitg.ac.in <br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--Employees End Area-->
+<!--Faculty Fellow Area-->
+<section class="section courses" data-section="section5">
+<div class="container"><hr/></div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<div class="section-heading">
+<h2>Faculty Fellow</h2>
+</div>
+</div>
+<div class="owl-carousel owl-theme">
+<div class="item">
+<img src="assets/images/faculty/anshul.jpg"/>
+<div class="down-content">
+<h4>Dr. Anshul Garg</h4>
+<p><b>DOJ - 17/11/22 </b><br/>
+<i class="fa fa-envelope-square"></i>: anshul.garg@alumni.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/debajit.jpeg"/>
+<div class="down-content">
+<h4>Dr. Debajit Sarma</h4>
+<p><b>DOJ - 02/12/22</b><br/>
+<i class="fa fa-envelope-square"></i>: debajit_sarma@tih.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/arunima.png"/>
+<div class="down-content">
+<h4>Dr. Arunima Dutta</h4>
+<p><b>DOJ - 18/12/23</b><br/>
+<i class="fa fa-envelope-square"></i>: arunimadutta@tih.iitg.ac.in <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/atul.jpg"/>
+<div class="down-content">
+<h4>Dr. Atul Singh Rajput</h4>
+<p><b>DOJ - 30/11/23</b><br/>
+<i class="fa fa-envelope-square"></i>: atulsingh@iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/Surajit Das.jpeg"/>
+<div class="down-content">
+<h4>Dr. Surajit Das</h4>
+<p><b>DOJ - 15/12/23</b><br/>
+<i class="fa fa-envelope-square"></i>: surajitdas2025@tih.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--Faculty Fellow End Area-->
+<!--Post Doctoral Fellow Area-->
+<section class="section courses" data-section="section5">
+<div class="container"><hr/></div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<div class="section-heading">
+<h2>Post Doctoral Fellow</h2>
+</div>
+</div>
+<div class="owl-carousel owl-theme">
+<div class="item">
+<img src="assets/images/postdoc/anindita.jpg"/>
+<div class="down-content">
+<h4>Dr. Anindita Borah</h4>
+<p><b>DOJ - 13/12/22 </b><br/>
+<i class="fa fa-envelope-square"></i>: anindita.b@iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Dr. Sibananda Mohanty</h4>
+<p><b>DOJ - 15/12/22 </b><br/>
+<i class="fa fa-envelope-square"></i>: sibanandaym@tih.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/postdoc/pranjal_barman.jpeg"/>
+<div class="down-content">
+<h4>Dr. Pranjal Barman</h4>
+<p><b>DOJ - 20/12/22 </b><br/>
+<i class="fa fa-envelope-square"></i>:barmanp@rnd.iitg.ac.in <br/>
+<a href="https://ieeexplore.ieee.org/author/37085494448" style="color:blue" target="_blank">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/postdoc/SaptarshiDutta.jpg"/>
+<div class="down-content">
+<h4>Dr. Saptarshi Dutta</h4>
+<p><b>DOJ - 20/07/23 </b><br/>
+<i class="fa fa-envelope-square"></i>:saptarshi.dutta@tih.iitg.ac.in
+                        <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Dr. Ketan Kumar Nandi</h4>
+<p><b>DOJ - 20/07/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: ketannandi@gmail.com<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/postdoc/Sandeep_Kumar_Mondal.png"/>
+<div class="down-content">
+<h4>Dr. Sandeep Kumar Mondal</h4>
+<p><b>DOJ - 21/07/23</b><br/>
+<i class="fa fa-envelope-square"></i>: sandeepkumar@alumni.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Dr. Pardeep Pankaj </h4>
+<p><b>DOJ - 24/07/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/postdoc/Sagar.png"/>
+<div class="down-content">
+<h4>Dr. Sagar Bhattarai</h4>
+<p><b>DOJ - 21/07/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: sagarbhattarai012@gmail.com<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/postdoc/pratiksha.JPG"/>
+<div class="down-content">
+<h4>Dr. Pratiksha Sarma</h4>
+<p><b>DOJ - 27/07/23</b><br/>
+<i class="fa fa-envelope-square"></i>: pratiksha.sarma7@gmail.com <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/postdoc/Pallab_Sarmah.jpeg"/>
+<div class="down-content">
+<h4>Dr. Pallab Sarmah</h4>
+<p><b>DOJ - 28/07/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: pallabsarmah@tih.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Dr. Manjusha Sarma</h4>
+<p><b>DOJ - 20/07/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: monjushasarmah@iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Dr. Neha Duklan</h4>
+<p><b>DOJ - 01/08/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Dr. Lakhshmi Narayanan V</h4>
+<p><b>DOJ - 04/08/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/postdoc/Ankur.jpg"/>
+<div class="down-content">
+<h4>Dr. Ankur Gupta</h4>
+<p><b>DOJ - 08/08/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: ankurgupta@tih.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Dr. Dheeraj Kumar Dhaked</h4>
+<p><b>DOJ - 03/08/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/postdoc/Yogesh_Tripathi.jpg"/>
+<div class="down-content">
+<h4>Dr. Yogesh Tripathi </h4>
+<p><b>DOJ - 01/01/2024</b><br/>
+<i class="fa fa-envelope-square"></i>: yogesht@tih.iitg.ac.in<br/>
+<a href="https://scholar.google.com/citations?hl=en&amp;user=B8BwzF4AAAAJ" style="color:blue" target="_blank">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/postdoc/Aminul Islam.jpeg"/>
+<div class="down-content">
+<h4>Dr. Aminul Islam </h4>
+<p><b>DOJ - 16-01-2024</b><br/>
+<i class="fa fa-envelope-square"></i>: islam@tih.iitg.ac.in<br/>
+<a href="https://scholar.google.com/citations?user=tK3ZTNUAAAAJ&amp;hl=en" style="color:blue" target="_blank">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/postdoc/blank.jpg"/>
+<div class="down-content">
+<h4>Dr. Achyuta Kumar Biswal</h4>
+<p><b>DOJ - 16/01/2024</b><br/>
+<i class="fa fa-envelope-square"></i>: biswalachyut@tih.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Dr. Ram Gopal</h4>
+<p><b>DOJ - 07/08/23 </b><br/>
+<b>Alumnus</b><br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Dr. Moumita Tewary</h4>
+<p><b>DOJ - 05/09/23 </b><br/>
+<b>Alumnus</b><br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Dr. Mrinal Kanti Sikdar</h4>
+<p><b>DOJ - 24/07/23 </b><br/>
+<b>Alumnus</b><br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--Post Doctoral Fellow End Area-->
+<!--Entrepreneur In Residence-->
+<section class="section courses" data-section="section5">
+<div class="container"><hr/></div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<div class="section-heading">
+<h2>Entrepreneur In Residence</h2>
+</div>
+</div>
+<div class="owl-carousel owl-theme">
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Sujit Das</h4>
+<p><b>DOJ - 23/01/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/EIR/honey.jpg"/>
+<div class="down-content">
+<h4>Honey Das</h4>
+<p><b>DOJ - 17/01/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: honeydas@rnd.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>CHUKKA ATCHUTA RAO</h4>
+<p><b>DOJ - 31/01/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Avinash Kumar</h4>
+<p><b>DOJ - 16/01/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Manish Kumar Mahto</h4>
+<p><b>DOJ - 18/10/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/faculty/blank.jpg"/>
+<div class="down-content">
+<h4>Pran Jyoti Saikia</h4>
+<p><b>DOJ - 16/10/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/EIR/Prakash_Narayan.png"/>
+<div class="down-content">
+<h4>Prakash Narayan Tiwari</h4>
+<p><b>DOJ - 20/10/23 </b><br/>
+<i class="fa fa-envelope-square"></i>: prakashtiwari@tih.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--Entrepreneur In Residence end-->
+<!--Project Staff Area-->
+<section class="section courses" data-section="section5">
+<div class="container"><hr/></div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<div class="section-heading">
+<h2>Project Staff</h2>
+</div>
+</div>
+<div class="owl-carousel owl-theme">
+<div class="col-sm-12 item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Abhijeet M. Dhulekar</h4>
+<p><b>Assistant Project Engineer</b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/lakshmi.jfif"/>
+<div class="down-content">
+<h4>Guduru Lakshmi Vara Prasad</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: glv13@rnd.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/mrinmoy.jpg"/>
+<div class="down-content">
+<h4>Mrinmoy Boruah</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: mrinmoy01@tih.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Swagat Ranjan Sahoo</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/patro.jpg"/>
+<div class="down-content">
+<h4>Akankhya Patro</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: akankhya@rnd.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Niranjan Kumar Choudhry</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Sayanica Barman</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Soumaya Mandal</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Bhaskar Jyoti Talukdar</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Vishnu Venugopal</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Bala Murugan S</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Veera Jogi Satya Nagendra Prasad</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Polem Nirmaldhaja</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Dhanush Devappa BC</h4>
+<p><b>Junior Research Fellowship</b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Kalyani Vasant Pawar</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Neethu M</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Arpan Bhattacharyya</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/Naila.jpeg"/>
+<div class="down-content">
+<h4>Naila Khan</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: naila64@iisi.iitg.ac.in<br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Akash Giri</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Abhimanyu Singh</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Nitesh Kumar</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Sarfraz Ahmad</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Samarjeet Das</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Rohan Sarma</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Thoutam Raju</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Saumya Ranjan Mohanty</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Smruti Ranjan Senapati</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Anoop FR</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Anantharam G S</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Premnath S</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Bylapudi Tajendra</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Satyabrata Sahoo</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Avinash Gunturu</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Ritam Sarma</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Hariom Thakur</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Kagitha Naga Konda Bhagyasri</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Nidhi Ahlawat</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Shaik Mushraf Rarvez</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Sundarapandian R</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Vagya M</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Aditytha AK</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Prabhat Thakur</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/projectstaff/blank.jpg"/>
+<div class="down-content">
+<h4>Anand Verma</h4>
+<p><b>Junior Research Fellowship </b><br/>
+<i class="fa fa-envelope-square"></i>: <br/>
+<a href="" style="color:blue">more..</a></p>
+</div>
+</div>
+<div class="item">
+<img src="assets/images/Staffpic/iba.jpeg"/>
+<div class="down-content">
+<h4>Junior Research Fellowship</h4>
+<p><b>Iba Parveen </b><br/>
+<b>Alumnus</b><br/>
+<i class="fa fa-envelope-square"></i>: ibaparveen@rnd.iitg.ac.in<br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--Project Staff End Area-->
+<section class="section video" data-section="section8">
+<div class="container"><hr/></div> <div class="section-heading">
+<h2> Gallery</h2>
+<h2> DST Visit</h2>
+</div>
+<div class="container">
+<div class="mySlides">
+<img src="assets/images/dst/1.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/2.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/3.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/4.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/5.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/6.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/7.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/vr.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/9.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/10.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/11.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/12.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/13.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/14.jpeg" style="width:100%"/>
+</div>
+<div class="mySlides">
+<img src="assets/images/dst/15.jpeg" style="width:100%"/>
+</div>
+<div class="caption-container">
+<p id="caption"></p>
+</div>
+<div class="row">
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(1)" src="assets/images/dst/1.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(2)" src="assets/images/dst/2.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(3)" src="assets/images/dst/3.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(4)" src="assets/images/dst/4.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(5)" src="assets/images/dst/5.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(6)" src="assets/images/dst/6.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(7)" src="assets/images/dst/7.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(8)" src="assets/images/dst/vr.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(9)" src="assets/images/dst/9.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(10)" src="assets/images/dst/10.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(11)" src="assets/images/dst/11.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(12)" src="assets/images/dst/12.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(13)" src="assets/images/dst/13.jpeg" style="width:100%"/>
+</div>
+<div class="colun">
+<img alt="" class="demo cursor" onclick="currentSlide(14)" src="assets/images/dst/14.jpeg" style="width:100%"/>
+</div>
+</div>
+</div>
+</section>
+<section class="section contact" data-section="section9">
+<div class="container"><hr/>
+<div class="row">
+<div class="col-md-12">
+<div class="section-heading">
+<h2>Let’s Keep In Touch</h2>
+</div>
+</div>
+<div class="col-md-6">
+<form>
+<div class="col-md-12">
+<p style="color:whitesmoke"><b>Contact Us:</b> <br/><br/>
+                   Technology Innovation Hub(TIH)<br/>
+                   Technology for Underwater Exploration,<br/>
+                   Indian Institute of Technology Guwahati,<br/>
+                   Guwahati– 781039.<br/>
+                   Email: <a href="mailto:tih@iitg.ac.in"><font color="lightblue">tih@iitg.ac.in</font></a><br/>
+<br/><br/>
+</p></div>
+</form>
+</div>
+<div class="col-md-6">
+<div id="map">
+<iframe allowfullscreen="" height="300" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1790.1753785334956!2d91.6893481634934!3d26.185265834938914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5ac4b4c8321d%3A0xeb816b20d9b90fbc!2sResearch%20Centre!5e0!3m2!1sen!2sin!4v1616650096583!5m2!1sen!2sin" style="border:0;" width='400"'></iframe> </div>
+</div>
+</div>
+</div>
+</section>
+<footer>
+<hr/>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<p><i class="fa fa-copyright"></i> Copyright 2021 by TIH-IITG 
+          
+           | Design: <a href="" rel="sponsored" target="_parent">TIH GEEKS</a></p>
+</div>
+</div>
+</div>
+</footer>
+<!-- Scripts -->
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/isotope.min.js"></script>
+<script src="assets/js/owl-carousel.js"></script>
+<script src="assets/js/lightbox.js"></script>
+<script src="assets/js/tabs.js"></script>
+<script src="assets/js/video.js"></script>
+<script src="assets/js/slick-slider.js"></script>
+<script src="assets/js/custom.js"></script>
+<script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+          if($(e.target).hasClass('external')) {
+            return;
+          }
+          e.preventDefault();
+          $('#menu').removeClass('active');
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+               
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlide(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+} 
+    </script>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>
